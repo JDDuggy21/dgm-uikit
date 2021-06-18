@@ -1,117 +1,105 @@
 export const links = [
-  {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
+   {
+    label: 'Home',
+    icon: 'HomeIcon',
+    href: '/',
   },
   {
-    label: "Trade",
-    icon: "TradeIcon",
+    label: 'Trade',
+    icon: 'TradeIcon',
     items: [
       {
-        label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        label: 'Exchange',
+        href: 'https://quickswap.exchange/#/swap?outputCurrency=',
       },
       {
-        label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        label: 'Liquidity',
+        href: 'https://quickswap.exchange/#/add/ETH/',
       },
     ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: '/farms',
   },
   {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: '/pools',
   },
   {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Profile & Teams",
+    label: "Referral",
     icon: "GroupsIcon",
-    items: [
-      {
-        label: "Leaderboard",
-        href: "/teams",
-      },
-      {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
+    href: "/referral",
+  },
+  /* {
+    label: 'Layered Farming - Layer 1',
+    icon: 'LayerIcon',
+    href: '/Layered',
   },
   {
-    label: "Info",
-    icon: "InfoIcon",
-    items: [
-      {
-        label: "Overview",
-        href: "https://pancakeswap.info",
-      },
-      {
-        label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
-      },
-      {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
-      },
-    ],
-  },
+    label: 'Nft',
+    icon: 'NftIcon',
+    href: '/Nft',
+  }, */
+  /* {
+    label: 'Lottery',
+    icon: 'HomeIcon',
+    href: '/Lottery',
+  }, */
+  /* {
+    label: 'Gaming App',
+    icon: 'NftIcon',
+    href: '/Gaming',
+  }, */
   {
-    label: "IFO",
-    icon: "IfoIcon",
+    label: 'Token Info',
+    icon: 'InfoIcon',
     items: [
       {
-        label: "Next",
-        href: "/ifo",
+        label: 'Polygon Scan',
+        href: 'https://polygonscan.com/address/0xcDa67243b792a3392e0812694A9e1d5784777A74',
       },
       {
-        label: "History",
-        href: "/ifo/history",
+        label: 'QuickSwap Chart',
+        href: '',
       },
     ],
   },
   {
-    label: "More",
-    icon: "MoreIcon",
+    label: 'More',
+    icon: 'MoreIcon',
     items: [
-      {
-        label: "Voting",
-        href: "https://voting.pancakeswap.finance",
-      },
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/DogeMaticSwap/",
       },
       {
         label: "Docs",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://app.gitbook.com/@dogematicswap/s/dogematicswap/",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com",
+        href: "https://medium.com/@dogematicswap/",
+      },
+      {
+        label: "Reddit",
+        href: "https://www.reddit.com/user/DogeMaticSwap",
       },
     ],
   },
-];
+  {
+    label: 'Roadmap',
+    icon: 'RoadmapIcon',
+    href: '',
+  },
+  /* {
+    label: 'Audit',
+    icon: 'AuditIcon',
+    href: '',
+  }, */
+]
 
 export const socials = [
   {
@@ -120,62 +108,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/pancakeswap",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
-      },
-      {
-        label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/pancakeswap_ru",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
-      },
-      {
-        label: "Español",
-        href: "https://t.me/PancakeswapEs",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/pancakeswapjp",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/pancakeswapfr",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
-      },
-      {
-        label: "Whale Alert",
-        href: "https://t.me/PancakeSwapWhales",
+        href: "https://t.me/dogematicswap",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/Dogematicswap",
   },
 ];
 
